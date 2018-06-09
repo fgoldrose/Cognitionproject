@@ -1,0 +1,16 @@
+To use the model:
+1) Make a file for the training data, which should be formatted as follows:
+
+*!* fox
+[Fox articles]
+
+*!* cnn
+[CNN articles]
+
+Where [Fox articles] and [CNN articles] is the text from some number of articles. 
+
+2) Make a file and insert the text of the article you would like the model to guess the source of. 
+
+3) type "make"
+4) type "./m -t [training file] -g [guessing file]"
+
